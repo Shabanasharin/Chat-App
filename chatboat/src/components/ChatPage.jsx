@@ -66,7 +66,7 @@ function ChatPage() {
             <div className="row  text-light bg-success p-3 mt-5 " style={{width:"55%"}} >
               <span><Link to={'/'}><i className="fa-solid fa-chevron-left" style={{ color: "#ffffff" }}></i></Link>&ensp; Logout</span>
             </div>
-            <div className='chtbg' style={{width:'55%',height:'501px',marginTop:'0px'}}>
+            <div className='chtbg' style={{width:'55%',height:'500px',marginTop:'0px'}}>
   
             <div ref={boxref} className="chatpart w-100">
               {datared && datared.map((item, index) => (
