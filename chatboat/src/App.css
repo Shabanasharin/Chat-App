@@ -1,0 +1,65 @@
+*{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.chtbg{
+  background-image: url(./assets/chatbg.jpg); 
+  margin: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.chatpart{
+  
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 500px;
+  max-height: 500px;
+  padding: 0px;
+  margin: 0px;
+  overflow-y: auto;
+}
+.msg{
+  border-top-right-radius: 90px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+
+}
+.msg2{
+  border-top-left-radius: 90px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+}
+.textmsg{
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.inpbx{
+  width: 100%;
+}
+
+.watermark{
+  margin-top: -50px;
+  margin-bottom: 150px;
+
+}
+.b1{
+  padding: 2px;
+  width: 200px;
+  background-color: lightblue;
+  font-size: 80%;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  
+}
